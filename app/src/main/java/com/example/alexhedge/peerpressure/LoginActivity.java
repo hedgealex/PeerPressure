@@ -1,6 +1,6 @@
 package com.example.alexhedge.peerpressure;
 
-//This is the first (1st) activity 
+//This is the first (1st) activity
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
