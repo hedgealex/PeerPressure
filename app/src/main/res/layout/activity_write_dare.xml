@@ -56,23 +56,11 @@
         app:layout_constraintTop_toBottomOf="@+id/write"
         app:layout_constraintVertical_bias="0.035" />
 
-    <ImageView
-        android:id="@+id/stopwatch"
-        android:layout_width="73dp"
-        android:layout_height="81dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/enterDare"
-        app:srcCompat="@drawable/stopwatch" />
-
     <Button
         android:id="@+id/desperateDare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="*Desperate Dare*"
-        app:layout_constraintBottom_toTopOf="@+id/stopwatch"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,6 +74,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stopwatch" />
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

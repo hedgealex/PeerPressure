@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class WriteDareActivity extends AppCompatActivity {
 
-    private ImageView logo, stopwatch;
+    private ImageView logo;
     private TextView name, write;
     private EditText enterDare;
     private Button desperateDare, submitButton;
