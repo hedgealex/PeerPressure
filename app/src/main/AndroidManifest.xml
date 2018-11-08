@@ -19,7 +19,10 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".JoinActivity" />
         <activity android:name=".LobbyActivity" />
-        <activity android:name=".WriteDareActivity"></activity>
+        <activity android:name=".WriteDareActivity" />
+        <activity android:name=".DareSelectActivity" />
+        <activity android:name=".DareCompleteActivity" />
+        <activity android:name=".DarePerformanceActivity"></activity>
     </application>
 
 </manifest>
